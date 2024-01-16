@@ -10,13 +10,10 @@ function App() {
 
     return (
         <div className="m-10">
-            <h1
-                className="text-3xl mb-2 font-bold underline text-primary"
+            <FilterIcon
                 onClick={onClick}
-            >
-                Click me
-            </h1>
-            <FilterIcon className={isOpen ? "text-tertiary" : ""} />
+                className={isOpen ? "text-tertiary" : ""}
+            />
         </div>
     );
 }
