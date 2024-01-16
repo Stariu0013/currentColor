@@ -16,7 +16,7 @@ function App() {
             >
                 Click me
             </h1>
-            {isOpen ? <FilterIcon className="text-tertiary" /> : <FilterIcon />}
+            <FilterIcon className={isOpen ? "text-tertiary" : ""} />
         </div>
     );
 }
